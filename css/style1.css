@@ -1,1 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 28px;
+}
 
+h2, p {
+  margin: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #21498a;
+  position: sticky;
+  top: 0;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #123163;
+}
+
+ul li a.active {
+  background-color: #1d59d1;
+}
